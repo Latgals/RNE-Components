@@ -94,8 +94,9 @@
 - По умолчанию в списке ищется реквизит `key` каждого элемента и используется как ключ. Кроме того, вы можете предоставить собственное свойство `keyExtractor`.
 - Также наследует `ScrollView` Props, если он не вложен в другой `FlatList` той же ориентации.
 
-####PROPS
+######PROPS
 
+```js
   VirtualizedList props...
 
       ScrollView props...
@@ -199,12 +200,12 @@ scrollToItem
 scrollToOffset
 recordInteraction
 flashScrollIndicators
+```
 
 
+######PROPS
 
-PROPS
-
-* renderItem={function} - Обязательна
+> renderItem={function} - Обязательна
 
 renderItem({ 
   item: Object, 
